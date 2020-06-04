@@ -6,7 +6,8 @@ exports.create = (req, res) => {
   if(!req.body.name) return res.status(400).send({ message: "Content can not be empty!" })
   
   const user = new User({
-      name: req.body.name
+      name: req.body.name,
+     
   })
 
   user
