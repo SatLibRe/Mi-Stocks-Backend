@@ -15,3 +15,5 @@ module.exports = mongoose => {
     const Stock = mongoose.model("stock", schema);
     return Stock;
   };
+
+  

@@ -7,7 +7,6 @@ exports.create = (req, res) => {
   
   const user = new User({
       name: req.body.name,
-     
   })
 
   user
